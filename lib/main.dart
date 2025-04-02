@@ -3,6 +3,7 @@ void main(){
   runApp(MyApp());
 }
 class MyApp extends StatelessWidget{
+  final List<String>images=[];
   @override
   Widget build(BuildContext context){
     return MaterialApp(
